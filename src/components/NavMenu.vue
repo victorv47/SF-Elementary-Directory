@@ -1,7 +1,11 @@
 <template>
   <nav>
-    <RouterLink to="/">Home</RouterLink>
-    <RouterLink to="/other">Other</RouterLink>
+    <RouterLink :to="{ name: 'Home' }">Home</RouterLink>
+    <RouterLink :to="{ name: 'Login' }">Login</RouterLink>
+    <RouterLink :to="{ name: 'AboutUs' }">About Us</RouterLink>
+    <RouterLink :to="{ name: 'Departments' }">Departments</RouterLink>
+    <RouterLink :to="{ name: 'Employees' }">Employee Directory</RouterLink>
+    <RouterLink :to="{ name: 'Enrollment' }">Enrollment Forms</RouterLink>
   </nav>
 </template>
 
