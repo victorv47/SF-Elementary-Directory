@@ -1,10 +1,18 @@
 <script setup>
 import { ref } from 'vue'
-const title = ref('Hello There New Person ✋')
+
+import NewsFeed from '@/components/NewsFeed.vue'
 </script>
 
 <template>
-  <main class="flex min-h-screen items-center justify-center">
-    <h1 class="text-6xl font-thin text-slate-800">{{ title }}</h1>
-  </main>
+  <div class="wrapper">
+    <NewsFeed />
+    Home
+  </div>
 </template>
+
+<style>
+.wrapper {
+  @apply flex min-h-screen items-center justify-center text-6xl font-thin text-slate-800;
+}
+</style>
