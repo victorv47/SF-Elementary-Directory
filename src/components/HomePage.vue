@@ -1,14 +1,11 @@
 <script setup>
 import { ref } from 'vue'
-
-import NewsFeed from '@/components/NewsFeed.vue'
+import slides from '@/components/NewsFeed.vue'
 </script>
 
 <template>
-  <div class="wrapper">
-    <NewsFeed />
-    Home
-  </div>
+  <slides />
+  <div class="wrapper">Home</div>
 </template>
 
 <style>
