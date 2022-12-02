@@ -4,6 +4,7 @@ import slides from '@/components/NewsFeed.vue'
 </script>
 
 <template>
+  <p v-if="loading">Loading...</p>
   <slides />
   <div class="wrapper">Home</div>
 </template>

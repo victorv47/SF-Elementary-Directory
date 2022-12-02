@@ -79,7 +79,7 @@ export default {
 }
 
 img {
-  height: 600px;
+  height: 500px;
   width: 100%;
 }
 
