@@ -9,6 +9,7 @@ import AboutUsPage from '@/components/AboutUsPage.vue'
 import DepartmentsPage from '@/components/DepartmentsPage.vue'
 import EmployeesPage from '@/components/EmployeesPage.vue'
 import EnrollmentPage from '@/components/EnrollmentPage.vue'
+import EnrollmentEntry from '@/components/EnrollmentEntry.vue'
 import NotFound from '@/components/NotFound.vue'
 
 const routes = [
@@ -18,6 +19,7 @@ const routes = [
   { path: '/departments', name: 'Departments', component: DepartmentsPage },
   { path: '/employees', name: 'Employees', component: EmployeesPage, meta: { requiresAuth: true } },
   { path: '/enrollment', name: 'Enrollment', component: EnrollmentPage, meta: { requiresAuth: true } },
+  { path: '/enrollmententry', name: 'EnrollmentEntry', component: EnrollmentEntry },
   { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
 ]
 
