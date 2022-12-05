@@ -16,10 +16,10 @@ export default {
   data() {
     return {
       images: [
-        '@../../../../photos/IMG_0614.PNG',
-        '@../../../../photos/IMG_0613.PNG',
-        '@../../../../photos/IMG_0611.PNG',
-        '@../../../../photos/IMG_0612.PNG',
+        'https://raw.githubusercontent.com/victorv47/SF-Elementary-Directory/main/photos/IMG_0614.PNG',
+        'https://raw.githubusercontent.com/victorv47/SF-Elementary-Directory/main/photos/IMG_0613.PNG',
+        'https://raw.githubusercontent.com/victorv47/SF-Elementary-Directory/main/photos/IMG_0611.PNG',
+        'https://raw.githubusercontent.com/victorv47/SF-Elementary-Directory/main/photos/IMG_0612.PNG',
       ],
       timer: null,
       currentIndex: 0,
