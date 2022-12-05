@@ -16,11 +16,10 @@ export default {
   data() {
     return {
       images: [
-        'https://cdn.pixabay.com/photo/2015/12/12/15/24/amsterdam-1089646_1280.jpg',
-        'https://cdn.pixabay.com/photo/2016/02/17/23/03/usa-1206240_1280.jpg',
-        'https://ichef.bbci.co.uk/news/976/cpsprodpb/13F00/production/_95146618_bills.jpg',
-        'https://thumbs.dreamstime.com/b/frustrated-business-woman-against-blurry-grey-office-math-graphics-digital-composite-95079532.jpg',
-        'https://cdn.pixabay.com/photo/2016/12/04/19/30/berlin-cathedral-1882397_1280.jpg',
+        '@../../../../photos/IMG_0614.PNG',
+        '@../../../../photos/IMG_0613.PNG',
+        '@../../../../photos/IMG_0611.PNG',
+        '@../../../../photos/IMG_0612.PNG',
       ],
       timer: null,
       currentIndex: 0,
@@ -39,7 +38,7 @@ export default {
 
   methods: {
     startSlide: function () {
-      this.timer = setInterval(this.next, 4000)
+      this.timer = setInterval(this.next, 9000)
     },
     next: function () {
       this.currentIndex += 1
@@ -79,7 +78,7 @@ export default {
 }
 
 img {
-  height: 500px;
+  height: 20%;
   width: 100%;
 }
 
