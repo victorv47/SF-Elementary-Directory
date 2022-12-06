@@ -46,15 +46,6 @@ export default {
     prev: function () {
       this.currentIndex -= 1
     },
-    // Attempting Pause Resume Feature
-    // pause: function () {
-    //   this.timer = null
-    // },
-    // resume: function () {
-    //   this.timer = setInterval(() => {
-    //     this.next()
-    //   }, this.sliderinterval)
-    // },
   },
 }
 </script>
@@ -78,7 +69,6 @@ export default {
 }
 
 img {
-  height: 20%;
   width: 100%;
 }
 

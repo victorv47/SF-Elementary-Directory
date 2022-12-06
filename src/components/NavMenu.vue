@@ -23,7 +23,12 @@ const brand = ref(import.meta.env.VITE_APP_NAME)
   </nav>
   <div>
     <RouterLink :to="{ name: 'Home' }">
-      <span class="brand-title"><span class="brand-title"></span>{{ brand }}</span>
+      <span class="brand-title"
+        ><img
+          class="h-20 w-20"
+          src="https://raw.githubusercontent.com/victorv47/SF-Elementary-Directory/main/photos/IMG_0609.PNG"
+        /><span class="brand-title"></span>{{ brand }}</span
+      >
     </RouterLink>
   </div>
 </template>
@@ -35,7 +40,8 @@ nav {
   color: white;
   height: 40px;
   .wrapper {
-    @apply container mx-auto flex w-full items-center justify-evenly;
+    @apply container flex w-full items-center justify-evenly;
+    margin: 0 auto;
     & button {
       width: 100px;
       margin-top: 0px;
@@ -62,7 +68,7 @@ nav {
 div {
   .brand {
     &-title {
-      @apply flex h-32 justify-center bg-slate-100 py-6 text-6xl font-bold text-green-900;
+      @apply flex justify-center bg-slate-100 py-6 px-4 text-6xl font-bold text-green-900;
     }
   }
 }
